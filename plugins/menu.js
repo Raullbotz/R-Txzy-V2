@@ -8,7 +8,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-║╭──❉ 〔 LynXzy 〕❉──
+║.╭──❉ 〔 LynXzy 〕❉──
 ║│➸ Hai, %name!
 ║│➸ Tersisa *%limit Limit*
 ║│➸ Role *%role*
